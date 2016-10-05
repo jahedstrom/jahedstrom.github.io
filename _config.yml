@@ -1,5 +1,5 @@
 excerpt_separator: ""
-pygments: true
+pygments:
 markdown: kramdown
 url: http://jahedstrom.github.io
 title: iOS App Development
