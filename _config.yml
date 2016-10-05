@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://jahedstrom.github.io
+title: iOS App Development
+email: delnorte91@gmail.com
+author: Jonathan Hedstrom
+description: Personal iOS app development portfolio and blog
+paginate: 5
+google_analytics: 
