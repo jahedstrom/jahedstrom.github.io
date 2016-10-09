@@ -7,6 +7,6 @@ layout: post
 
 ###**Alcolator**
 
-![](jahedstrom.github.io/Alcolator Screen Shots.png)
+![Alcolator Screen Shots](https://jahedstrom.github.io/Alcolator Screen Shots.png)
 
 This was the first app...
