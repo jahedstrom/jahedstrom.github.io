@@ -1,10 +1,8 @@
 ---
 published: true
-title: Case Studies
+title: Alcolator
 layout: post
 ---
-# **Alcolator**
-
-![Alcolator Screen Shots](https://jahedstrom.github.io/AlcolatorScreenShots.png)
+![Alcolator Screen Shots](https://jahedstrom.github.io/AlcolatorScreenShots.png "Alcolator Screen Shots")
 
 This was the first app...
