@@ -1,0 +1,14 @@
+---
+published: true
+title: BloQuery
+layout: post
+---
+![BloQuery Screen Shots](https://jahedstrom.github.io/BloQueryScreenShots.png "BloQuery Screen Shots")
+
+## Overview
+
+BloQuery is a realtime question and answer app that uses Google Firebase for data storage.  Firebase is a cloud based realtime database that is ideally suited to this type of app.  Users are authenticated with an email/password and can ask new questions, answer existing questions, upvote answers or view the profile of other users.  New questions or answers are immediately reflected across all devices that are running the app.
+
+## Details
+
+BloQuery was written in Objective-C.  UI design and layout was done via storyboards.  A data model was designed for the realtime database which favors a flatter data structure for quick retrieval.  This means that the questions and answers were implemented as separate tables in the database with the key of the question being used to locate the appropriate answer in the answers datatable.  A separate users table was also used to store necessary user info such as name, email and profile image URL.  Since Firebase stores data as simple JSON objects, it provides a separate Storage database for images and videos.  This storage database was used to store the user's profile image.  Database security was setup so that only authenticated users can read or write from the database.  Many of the functions written for this app use block based completion handlers to account for the asynchronous nature of the Firebase networking code.
