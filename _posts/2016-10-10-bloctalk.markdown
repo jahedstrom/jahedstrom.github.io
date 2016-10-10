@@ -1,0 +1,12 @@
+---
+published: true
+title: BlocTalk
+layout: post
+---
+## Overview
+
+BlocTalk is a multipeer chat app that uses Apple's Multipeer Connectivity Framework.  Users can connect with each other over Bluetooth or Wifi, no internet connection needed.  Nearby peers will show up in the app and a user can select one to start a conversation.  Users can also archive an existing conversation and it will automatically reappear when a new message is received.  If a message is received for a conversation when the app is open a notification will pop up to alert the user.  Conversations are stored to the device so will not be lost across app relaunches.
+
+## Details
+
+BlocTalk was written in Objective-C.  Storyboards were used for the UI layout and design.  A UINavigation controller was chosen to control the app flow.  The multipeer connectivity framework is not the best documented of Apple's frameworks, so some research and experiementation was required to get it working smoothly.  A straigforward data model consisting of conversations, messages and users was constructed.  NSCoding/NSKeyedArchiver was used to store the conversation data to disk.  The third party library JSQMessagesViewController was used to provide a fully functional and nice looking message UI.
