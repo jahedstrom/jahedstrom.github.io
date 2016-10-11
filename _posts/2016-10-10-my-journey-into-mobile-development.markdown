@@ -1,0 +1,6 @@
+---
+published: true
+title: My Journey into Mobile Development
+layout: post
+---
+My background is electrical engineering, where I have done a variety of things from RF analog circuit design to three phase power systems.  Programming isn't new to me, but most of my previous experience had been in lower level languages like assembly, C and PLC ladder logic.  I had an interest in getting into mobile development and started down the path of learning Objective-C, but got bogged down and switched to tyring hybrid apps with HTML/Javascript/CSS. My interest waned because it felt too far away from hardware.  After some searching of different programming boot camps, I came across Bloc's iOS development program.  I was really attracted to the fact that you could complete the course remotely, which meant I could work from home, but the real value of the course was the fact that you get connected with a mentor.  I would often get through and understand how to do an assignment, but would feel my knowledge was incomplete without knowing why we were doing something the way we were.  Having someone who has been through the app development cycle many times and who you could bounce your questions off was critical to my success.  Now, upon completion of the program I have several apps under my belt and a solid foundation of knowledge to continue my learning journey.
