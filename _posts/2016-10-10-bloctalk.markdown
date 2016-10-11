@@ -3,6 +3,10 @@ published: true
 title: BlocTalk
 layout: post
 ---
+![BlocTalk Screen Shots 1](https://jahedstrom.github.io/BlocTalkScreenShots1.png "BlocTalk Screen Shots 1")
+
+![BlocTalk Screen Shots 2](https://jahedstrom.github.io/BlocTalkScreenShots2.png "BlocTalk Screen Shots 2")
+
 ## Overview
 
 BlocTalk is a multipeer chat app that uses Apple's Multipeer Connectivity Framework.  Users can connect with each other over Bluetooth or Wifi, no internet connection needed.  Nearby peers will show up in the app and a user can select one to start a conversation.  Users can also archive an existing conversation and it will automatically reappear when a new message is received.  If a message is received for a conversation when the app is open a notification will pop up to alert the user.  Conversations are stored to the device so will not be lost across app relaunches.
